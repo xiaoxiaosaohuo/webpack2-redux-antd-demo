@@ -74,7 +74,8 @@ Babel被配置[babel-plugin-transform-runtime](https://www.npmjs.com/package/bab
 在生产环境下，webpack会导出一个css文件并压缩Javascript，并把js模块优化到最好的性能。
 
 
-##feautre文件夹下，按照功能组织，
+##feautre文件夹下，按照项目功能进行组织，提高了可扩展性和可维护性
 1. components是UI组件，
 2. container是容器组件，
 3. module中是action actionCreators,reducers.
+以上3点是redux概念中的内容，UI组件和容器组件分离，尽量将所有的业务逻辑数据处理放在容器组件中，UI方面的代码放在UI组件中，实现关注点分离。modules中集中放置action,actionCreators,reducers。之所以放在一个文件中，可以避免在不同文件中跳来跳去的繁琐。
