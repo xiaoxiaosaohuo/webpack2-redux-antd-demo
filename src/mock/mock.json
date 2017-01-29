@@ -1,0 +1,37 @@
+[{
+  "key": 1,
+  "name": "北京总公司",
+  "type": "土豆",
+  "person":"白菜",
+  "phone":"15191517880",
+  "city": "北京",
+  "manager":"瓜皮",
+  "children": [{
+      "key": "11",
+      "name": "北京分公司",
+      "type": "土豆",
+      "person":"白菜",
+      "phone":"15191517880",
+      "city": "北京",
+      "manager":"瓜皮"
+  }, {
+      "key": "2",
+      "name": "哗啦啦公司",
+      "type": "土豆",
+      "person":"白菜",
+      "phone":"15191517880",
+      "city": "北京",
+      "manager":"瓜皮"
+
+  }, {
+      "key": 78,
+      "name": "Facebook公司",
+      "type": "土豆",
+      "person":"白菜",
+      "phone":"15191517880",
+      "city": "北京",
+      "manager":"瓜皮"
+
+  }]
+
+}]
