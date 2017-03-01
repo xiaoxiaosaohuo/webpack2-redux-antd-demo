@@ -84,5 +84,5 @@ Babel被配置[babel-plugin-transform-runtime](https://www.npmjs.com/package/bab
 ## 登录权限验
 引入 redux-auth-wrapper 组件进行权限控制，可根据需要进行修改。
 ## 登录账号密码
-手机号：有效手机号
-密码:4位数字
+1. 手机号：有效手机号
+2. 密码:4位数字
