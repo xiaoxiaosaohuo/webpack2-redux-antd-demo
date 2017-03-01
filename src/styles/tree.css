@@ -1,0 +1,32 @@
+.react-checkbox-tree{
+    font-size:16px}
+.react-checkbox-tree ol{
+    padding-left:0;list-style-type:none
+}
+.react-checkbox-tree ol ol{padding-left:24px}
+.react-checkbox-tree label{margin-bottom:0;cursor:pointer}
+.react-checkbox-tree label:hover{background:#f5f5f5}
+.react-checkbox-tree .fa{width:14px;margin:0 5px}
+.react-checkbox-tree .fa-file-o,.react-checkbox-tree .fa-folder-o,.react-checkbox-tree .fa-folder-open-o
+{color:#33c}
+.rct-text
+{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:flex-start}
+.rct-collapse{font-size:12px}
+.rct-collapse .fa-chevron-down,.rct-collapse .fa-chevron-right
+{text-align:center;cursor:pointer}
+.rct-collapse>.fa-chevron-right
+{opacity:.5}
+.rct-collapse>.fa-chevron-right:hover
+{opacity:1}
+.rct-half-checked
+{opacity:.5}
+.rct-title
+{margin-right:5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.react-checkbox-tree .anticon-caret-down:before,.react-checkbox-tree .anticon-caret-right:before{
+    transform: scale(0.6)
+}

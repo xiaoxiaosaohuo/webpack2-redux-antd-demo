@@ -7,7 +7,7 @@ import { Router, hashHistory} from 'react-router';
 import {bindActionCreators} from 'redux';
 import "../styles/antd.css";
 import "../styles/layout.css";
-// import "../styles/fonts/style.css";
+import "../styles/fonts/style.css";
 // import "../components/style.css"
 import { Row, Col } from 'antd';
 import Header from '../components/Header';

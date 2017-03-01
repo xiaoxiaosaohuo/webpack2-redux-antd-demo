@@ -1,0 +1,26 @@
+{
+  "name": "source-code-pro",
+  "main": "source-code-pro.css",
+  "homepage": "https://github.com/adobe-fonts/source-code-pro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adobe-fonts/source-code-pro.git"
+  },
+  "authors": [
+    {
+      "name": "Paul D. Hunt"
+    }
+  ],
+  "description": "Source Code Pro font family by Adobe",
+  "license": "SIL OFL 1.1",
+  "_release": "ce82077420",
+  "_resolution": {
+    "type": "branch",
+    "branch": "release",
+    "commit": "ce820774209b345aa79182060619b706b9f9e6bf"
+  },
+  "_source": "git://github.com/adobe-fonts/source-code-pro.git",
+  "_target": "release",
+  "_originalSource": "git://github.com/adobe-fonts/source-code-pro.git",
+  "_direct": true
+}

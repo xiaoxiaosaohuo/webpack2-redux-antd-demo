@@ -26,10 +26,10 @@ const Sider = React.createClass({
             <SubMenu key="order" title={<span className="sider-flex"><span className="iconfont">&#xe60b;</span><span>上单</span></span>}>
                 <Menu.Item key="order1">
 
-                <Link to={'/home'}><Icon type="" /><span className="nav-text">导航一</span></Link>
+                <Link to={'/merchantTags'}><Icon type="" /><span className="nav-text">导航一</span></Link>
                 </Menu.Item>
                 <Menu.Item key="order2">
-                <Link to={'/login1'}><Icon type="user" /><span className="nav-text">导航2</span></Link>
+                <Link to={'/NotFound'}><Icon type="user" /><span className="nav-text">导航2</span></Link>
                 </Menu.Item>
             </SubMenu>
             <SubMenu key="shop" title={<span className="sider-flex"><span className="iconfont">&#xe60a;</span><span>商户</span></span>}>

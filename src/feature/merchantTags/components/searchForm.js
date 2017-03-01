@@ -86,48 +86,14 @@ class SearchForm  extends Component{
 				  <Option value="Yiminghe">yiminghe</Option>
 				</Select>
 				</FormItem>
-				<FormItem>
-				<Select  style={{ width: 120 ,marginLeft:5}} placeholder="店铺流失原因" >
-				  <Option value="jack">Jack</Option>
-				  <Option value="lucy">Lucy</Option>
-				  <Option value="Yiminghe">yiminghe</Option>
-				</Select>
-				</FormItem>
-				<FormItem>
-				<Select  style={{ width: 120,marginLeft:5 }} placeholder="销售人员未标记">
-				  <Option value="jack">Jack</Option>
-				  <Option value="lucy">Lucy</Option>
-				  <Option value="Yiminghe">yiminghe</Option>
-				</Select>
-				</FormItem>
-				<FormItem>
-				<Select  style={{ width: 120,marginLeft:5 }} placeholder="实施人员未标记" >
-				  <Option value="jack">Jack</Option>
-				  <Option value="lucy">Lucy</Option>
-				  <Option value="Yiminghe">yiminghe</Option>
-				</Select>
-				</FormItem>
-				<FormItem>
-				<Select  style={{ width: 120,marginLeft:5 }} placeholder="运营人员未标记" >
-				  <Option value="jack">Jack</Option>
-				  <Option value="lucy">Lucy</Option>
-				  <Option value="Yiminghe">yiminghe</Option>
-				</Select>
-				</FormItem>
-				<FormItem>
-				<Select  style={{ width: 120,marginLeft:5 }} placeholder="支持人员未标记" >
-				  <Option value="jack">Jack</Option>
-				  <Option value="lucy">Lucy</Option>
-				  <Option value="Yiminghe">yiminghe</Option>
-				</Select>
-				</FormItem>
+
 
 			</Col>
 			<Col>
 				<FormItem>
 					<Checkbox >测试集团</Checkbox>
 				</FormItem>
-				
+
 			</Col>
 		</Row>
 	</Form>

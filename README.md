@@ -17,7 +17,7 @@ npm 命令详解
 
 |`npm run <script>`|解释|
 |------------------|-----------|
-|`start`|服务启动在3001端口，代码热替换开启。|
+|`start`|服务启动在3000端口，代码热替换开启。|
 |`compile`|编译程序到dist目录下（默认目录~/dist）。|
 |`dev`|与`npm start`相同, 但是启动nodemon守护进程。|
 |`dev:no-debug`|与`npm run dev` 但是禁用devtool（开发工具）。|
@@ -65,7 +65,7 @@ npm 命令详解
 
 ## 服务端
 
-这个项目的服务端使用Koa。
+这个项目的服务端使用express。
 
 ## 打包优化
 
@@ -78,4 +78,11 @@ Babel被配置[babel-plugin-transform-runtime](https://www.npmjs.com/package/bab
 1. components是UI组件，
 2. container是容器组件，
 3. module中是action actionCreators,reducers.
-以上3点是redux概念中的内容，UI组件和容器组件分离，尽量将所有的业务逻辑数据处理放在容器组件中，UI方面的代码放在UI组件中，实现关注点分离。modules中集中放置action,actionCreators,reducers。之所以放在一个文件中，可以避免在不同文件中跳来跳去的繁琐。
+以上3点是redux概念中的内容，UI组件和容器组件分离，尽量将所有的业务逻辑数据处理放在容器组件中，UI方面的代码放在UI组件中，实现关注点分离。modules中集中放置action,actionCreators,reducers。之所以放在一个文件中，可以避免在不同文件中跳来跳去的繁琐，增强后期维护方便性。
+## 使用webpack2最新版本配置
+
+## 登录权限验
+引入 redux-auth-wrapper 组件进行权限控制，可根据需要进行修改。
+## 登录账号密码
+手机号：有效手机号
+密码:4位数字

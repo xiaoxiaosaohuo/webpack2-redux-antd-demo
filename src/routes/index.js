@@ -18,18 +18,16 @@ import MerchantTags from '../feature/merchantTags';
     <div className="page-wrapper">
         <Router history={history} >
 
-            <Route path="/">
+            <Route path="/" component={App}>>
                 <IndexRoute component={UserIsAuthenticated(App)}/>
 
-                <Route path="/" component={App}>
-                    <Route path="/login1" component={Login1} />
                     <Route path='/settingRole' component={UserIsAuthenticated(SettingRole)} />
                     <Route path='/settingAuth' component={SettingAuth} />
                     <Route path='/settingOrg' component={SettingOrg} />
                     <Route path='/merchantTags' component={UserIsAuthenticated(MerchantTags)} />
-                </Route>
+                    <Route path='*' component={NotFound} />
                 <Route path="login" component={UserIsNotAuthenticated(Login)}/>
-                <Route path='*' component={NotFound} />
+
             </Route>
         </Router>
         <DevTools/>
