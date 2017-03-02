@@ -7,7 +7,7 @@
 
 
 ```bash
-$ git clone https://github.com/jinxin479/react-redux-antd-starter-kit.git
+$ git clone https://github.com/jinxin479/webpack2-redux-antd-demo.git
 $ npm install                   # 安装依赖
 $ npm start                     # 运行
 ```
